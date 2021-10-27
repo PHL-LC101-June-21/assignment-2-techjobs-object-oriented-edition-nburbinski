@@ -20,6 +20,10 @@ public class TestTaskFour extends AbstractTest {
     @Tested
     JobTest jobTest;
 
+
+
+
+
     @Test
     public void testTestSettingJobIdExists () throws ClassNotFoundException {
         Class jobTestClass = getClassByName("test.JobTest");
